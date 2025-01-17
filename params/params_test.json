@@ -1,0 +1,8 @@
+{
+    "target_device": "cuda:0",
+    "network_name": "tacotron2",
+    "dataset": "LJSpeech",
+    "batch_size": 1,
+    "num_workers": 4,
+    "checkpoint_name": "e_023.pth"
+}

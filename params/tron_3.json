@@ -1,0 +1,23 @@
+{
+    "target_device": [2],
+    "network_name": "tacotron2",
+    "solver": "Adam",
+    "learning_rate": 0.003,
+    "beta1": 0.9,
+    "beta2": 0.999,
+    "eps": 1e-06,
+    "reg_lambda": 1e-06,
+    "policy": "StepLR",
+    "step_size": 100,
+    "gamma": 0.9,
+    "dataset": {
+        "name": "LJSpeech",
+        "num_data": 1
+    },
+    "max_epoch": 5000,
+    "batch_size": 1,
+    "num_workers": 0,
+    "checkpoint_name": "None.pth",
+    "spec_save_intervals": 50,
+    "losses": "full"
+}

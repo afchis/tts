@@ -1,0 +1,20 @@
+{
+    "target_device": [0],
+    "network_name": "embedder",
+    "loss_fn": "softmax",
+    "solver": "Adam",
+    "learning_rate": 0.01,
+    "policy": "StepLR",
+    "step_size": 30000000,
+    "gamma": 0.5,
+    "dataset": {
+        "name": "VOX2",
+        "data_type": "wav",
+        "wav_len": 16000,
+        "num_utterance": 10
+    },
+    "max_epoch": 1000,
+    "batch_size": 64,
+    "num_workers": 28,
+    "checkpoint_name": "None.pth"
+}
